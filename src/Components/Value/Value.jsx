@@ -43,12 +43,13 @@ const Value = () => {
 
                             <Accordion className='accordion' allowMultipleExpanded={false}
                                 preExpanded={[0]}
+                                style={{width:"50vw"}}
                             >
                                 {
                                     data.map((itms, i) => {
                                         return (
                                             <>
-                                                <AccordionItem className='accordionItem' key={i} uuid={i}>
+                                                <AccordionItem className='accordionItem' key={i}>
                                                     <AccordionItemHeading>
                                                         <AccordionItemButton>
 
