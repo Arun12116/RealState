@@ -1,0 +1,63 @@
+.contact-body {
+    display: flex;
+    /* justify-content: space-around; */
+    text-align: center;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.right img {
+    width: 100%;
+    height: 100%;
+}
+
+.left {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.orange {
+    color: orange;
+    font-size: 2rem;
+}
+
+.blue {
+    color: blue;
+    font-size: 1.50rem;
+    font-weight: 500
+}
+
+.contact-ditiles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7vw;
+    height: 6vh;
+    background-color: blue;
+    color: whitesmoke;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1.20rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.contact-image {
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    /* border: 8px solid rgba(39, 4, 4, 0.12); */
+}

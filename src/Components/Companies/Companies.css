@@ -1,0 +1,10 @@
+.comapnney-wrapper-body{
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+.comapnney-wrapper-body>img{
+    width: 15%;
+    height: 15%;
+}

@@ -1,0 +1,23 @@
+.footer-wrapper{
+
+}
+.footer-body{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+}
+.left-side img{
+    width: 9vw;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+}
+.right-side h2{
+    color: blue;
+    margin: 1rem;
+}
